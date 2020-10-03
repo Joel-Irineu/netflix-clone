@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     text-decoration: none;
 }
 /* elementos base */
@@ -47,9 +47,10 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-bottom: 40px;
 }
-.titulo{
+.filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .botao{
     background: #00000088;
@@ -59,5 +60,12 @@ header nav a:hover{
     cursor: pointer;
     margin-right: 15px;
     font-size: 12px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao:hover{
+    background: #fff;
+    color: #000;
+    transition: .3s ease all;
+}
+.botao i{
+    margin-right: 8px;
 }
