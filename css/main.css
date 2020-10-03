@@ -19,7 +19,6 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 5px 10px;
 }
 header .logo{
     color: var(--myRed);
@@ -68,4 +67,10 @@ header nav a:hover{
 }
 .botao i{
     margin-right: 8px;
+}
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+    width: 70%;
 }
